@@ -1,0 +1,53 @@
+.input table {  
+    color: #333;
+    font-family: halyard-display,Helvetica, Arial, sans-serif;
+    font-style: normal;
+    border-collapse:collapse; 
+    border-spacing: 0; 
+	border-radius: 16px;
+    min-width: 300px;
+    margin-bottom: 1%;
+}
+
+@media only screen and (min-width: 600px) {
+  .input table {  
+    min-width: 600px;    
+    max-width: 640px;  
+    }
+}
+
+.input select {
+    width:175px;
+}
+
+.input table td, th {  
+    border: 1px solid transparent; /* No more visible border */
+    height: 30px;
+}
+
+.input table th {  
+    background: #DFDFDF;  /* Darken header a bit */
+    font-weight: bold;
+}
+
+.input table td {  
+    background: #FAFAFA;
+    text-align: center;
+}
+
+.input button{
+  font-family: halyard-display, sans-serif;
+  margin-right: -540%
+}
+
+/* Cells in even rows (2,4,6...) are one color */        
+.input table tr:nth-child(even) td { background: #F1F1F1; }  
+/* Cells in odd rows (1,3,5...) are another (excludes header cells)  */   
+.input table tr:nth-child(odd) td { background: #FFFF66; }
+/*Cells in last row is left white as it contains submit button*/
+.input table tr:last-of-type td { background: white; } 
+/*Cells in last row is left white as it contains submit button*/
+.input tbody tr:last-of-type:hover td { background: white; color: #FFF; } 
+
+
+.input tbody tr:hover td { background: #615A5C; color: #FFF; } 

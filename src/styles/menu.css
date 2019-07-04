@@ -1,0 +1,71 @@
+/*Test page css*/
+.image {
+	animation: App-logo-spin .5s linear;
+	height: 55px;
+	width: 60px;
+}
+@keyframes App-logo-spin {
+	from {
+		transform: rotate(200deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+.test p {
+	font-family: halyard-display, sans-serif;
+	display: inline;
+	font-size: 40px;
+}
+/*Centering div http://emergentweb.com/test/valign.html */
+.outer {
+	display: table;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+}
+
+.middle {
+	display: table-cell;
+	vertical-align: middle;
+}
+.test {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 350px;
+}
+.App {
+	font-family: halyard-display, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	padding: 0px 24px;
+	text-align: center;
+	margin-top: 5%;
+}
+.App2 {
+	font-family: halyard-display, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	padding: 0px 24px;
+}
+
+/*Home*/
+.homecontainer {
+	text-align: center;
+	user-select: none; /*Stops highlighting/selecting by user*/
+}
+
+.homecontainer h1 {
+	cursor: pointer;
+}
+.preLogo {
+	font-family: halyard-display, sans-serif;
+	display: inline;
+	font-size: 35px;
+}
+.logo {
+	color: yellow;
+}

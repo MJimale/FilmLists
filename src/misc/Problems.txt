@@ -1,0 +1,17 @@
+Problems
+
+React Router:
+1- error page needed (done)
+2- loading page and then home page (Done)
+3- not passing down props onClick (Done)
+4- <Link/> a tag hover area too small.(Done)
+5- Redirect when the directly accessing .../Film
+
+Film.js:
+1-underline on hover <Link /> (Done)
+2- Home/PAGE_SECTION (Styling/Formatting Done *Rest Dependent on props passing (see Issue #4 React Router)) (Done)
+
+Input form:
+1.Need to decide how to input Ratings
+2.List of genres(Maybe just allow text but make sure it start with capital letters and autosuggest)
+3.animation not working
