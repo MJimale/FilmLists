@@ -1,0 +1,56 @@
+.user {
+	font-family: sans-serif;
+	text-align: center;
+	margin-top: 3%;
+}
+
+.userCardContainer {
+	display: inline-block;
+	margin-right: 2%;
+}
+
+.userCardContainer:hover {
+	transform: translateY(-10px);
+}
+.userCardContainer h2 {
+	font-weight: 700;
+	font-size: 1.6rem;
+	margin: 0 0 0.2rem 0;
+}
+
+.userCardStyle {
+	font-family: sans-serif;
+	text-align: center;
+	border: 2px solid black;
+	display: inline-block;
+	width: 80px;
+	height: 60px;
+	padding: 4rem;
+	margin-left: auto;
+	margin-right: 2%;
+	margin-top: 2%;
+}
+
+.userCardStyle img {
+	height: 150px;
+	width: 180px;
+	margin-top: -60%;
+	margin-left: -60%;
+}
+
+.buttonCardStyle {
+	font-family: sans-serif;
+	text-align: center;
+	border: 2px solid black;
+	display: inline-block;
+	position: relative;
+	width: 80px;
+	height: 60px;
+	padding: 4rem;
+	margin-left: auto;
+	margin-right: 2%;
+	margin-top: 2%;
+	font-size: 50px;
+	background-color: #000000;
+	color: #ffffff;
+}

@@ -1,0 +1,2586 @@
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["main"],{
+
+/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/styles/container.css":
+/*!*************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/styles/container.css ***!
+  \*************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".filmscontainer {\r\n\tfont-family: halyard-display, sans-serif;\r\n\tpadding: 0px 24px;\r\n\t-webkit-text-decoration-color: red;\r\n\t        text-decoration-color: red;\r\n}\r\ntable {\r\n\tcolor: #333;\r\n\tfont-family: halyard-display, Helvetica, Arial, sans-serif;\r\n\tfont-style: normal;\r\n\tmin-width: 300px;\r\n\tmax-width: 640px;\r\n\tborder-collapse: collapse;\r\n\tborder-spacing: 0;\r\n}\r\n@media only screen and (min-width: 600px) {\r\n\ttable {\r\n\t\tmin-width: 600px;\r\n\t\tmax-width: 640px;\r\n\t}\r\n}\r\nadding {\r\n\tmargin: 16px 0;\r\n}\r\ni:hover {\r\n\ttext-decoration: underline;\r\n\t-webkit-text-decoration-color: black;\r\n\t        text-decoration-color: black;\r\n}\r\n\r\n.hover:hover {\r\n\ttext-decoration: underline;\r\n\t-webkit-text-decoration-color: red;\r\n\t        text-decoration-color: red;\r\n\tbackground-color: #ffff66;\r\n}\r\n\r\n.filmscontainer td,\r\nth {\r\n\tborder: 1px solid transparent; /* No more visible border */\r\n\theight: 30px;\r\n\ttransition: all 0.3s; /* Simple transition for hover effect */\r\n}\r\n\r\n.filmscontainer th {\r\n\tbackground: #dfdfdf; /* Darken header a bit */\r\n\tfont-weight: bold;\r\n}\r\n\r\n.filmscontainer td {\r\n\tbackground: #fafafa;\r\n\ttext-align: center;\r\n}\r\n\r\n/* Cells in even rows (2,4,6...) are one color */\r\n.filmscontainer tr:nth-child(even) td {\r\n\tbackground: #f1f1f1;\r\n}\r\n\r\n/* Cells in odd rows (1,3,5...) are another (excludes header cells)  */\r\n.filmscontainer tr:nth-child(odd) td {\r\n\tbackground: #fefefe;\r\n}\r\n\r\n.filmscontainer tbody tr:hover td {\r\n\tbackground: #666;\r\n\tcolor: #fff;\r\n}\r\n", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/styles/index.css":
+/*!*********************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/styles/index.css ***!
+  \*********************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "body {\n\tmargin: 0;\n\tpadding: 0;\n\tfont-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Roboto\", \"Oxygen\", \"Ubuntu\", \"Cantarell\", \"Fira Sans\",\n\t\t\"Droid Sans\", \"Helvetica Neue\", sans-serif;\n\t-webkit-font-smoothing: antialiased;\n\t-moz-osx-font-smoothing: grayscale;\n}\n\ncode {\n\tfont-family: source-code-pro, Menlo, Monaco, Consolas, \"Courier New\", monospace;\n}\n", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/styles/input.css":
+/*!*********************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/styles/input.css ***!
+  \*********************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".input table {  \r\n    color: #333;\r\n    font-family: halyard-display,Helvetica, Arial, sans-serif;\r\n    font-style: normal;\r\n    border-collapse:collapse; \r\n    border-spacing: 0; \r\n\tborder-radius: 16px;\r\n    min-width: 300px;\r\n    margin-bottom: 1%;\r\n}\r\n\r\n@media only screen and (min-width: 600px) {\r\n  .input table {  \r\n    min-width: 600px;    \r\n    max-width: 640px;  \r\n    }\r\n}\r\n\r\n.input select {\r\n    width:175px;\r\n}\r\n\r\n.input table td, th {  \r\n    border: 1px solid transparent; /* No more visible border */\r\n    height: 30px;\r\n}\r\n\r\n.input table th {  \r\n    background: #DFDFDF;  /* Darken header a bit */\r\n    font-weight: bold;\r\n}\r\n\r\n.input table td {  \r\n    background: #FAFAFA;\r\n    text-align: center;\r\n}\r\n\r\n.input button{\r\n  font-family: halyard-display, sans-serif;\r\n  margin-right: -540%\r\n}\r\n\r\n/* Cells in even rows (2,4,6...) are one color */        \r\n.input table tr:nth-child(even) td { background: #F1F1F1; }  \r\n/* Cells in odd rows (1,3,5...) are another (excludes header cells)  */   \r\n.input table tr:nth-child(odd) td { background: #FFFF66; }\r\n/*Cells in last row is left white as it contains submit button*/\r\n.input table tr:last-of-type td { background: white; } \r\n/*Cells in last row is left white as it contains submit button*/\r\n.input tbody tr:last-of-type:hover td { background: white; color: #FFF; } \r\n\r\n\r\n.input tbody tr:hover td { background: #615A5C; color: #FFF; } ", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/styles/menu.css":
+/*!********************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/styles/menu.css ***!
+  \********************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "/*Test page css*/\n.image {\n\t-webkit-animation: App-logo-spin .5s linear;\n\t        animation: App-logo-spin .5s linear;\n\theight: 55px;\n\twidth: 60px;\n}\n@-webkit-keyframes App-logo-spin {\n\tfrom {\n\t\t-webkit-transform: rotate(200deg);\n\t\t        transform: rotate(200deg);\n\t}\n\tto {\n\t\t-webkit-transform: rotate(360deg);\n\t\t        transform: rotate(360deg);\n\t}\n}\n@keyframes App-logo-spin {\n\tfrom {\n\t\t-webkit-transform: rotate(200deg);\n\t\t        transform: rotate(200deg);\n\t}\n\tto {\n\t\t-webkit-transform: rotate(360deg);\n\t\t        transform: rotate(360deg);\n\t}\n}\n.test p {\n\tfont-family: halyard-display, sans-serif;\n\tdisplay: inline;\n\tfont-size: 40px;\n}\n/*Centering div http://emergentweb.com/test/valign.html */\n.outer {\n\tdisplay: table;\n\tposition: absolute;\n\ttop: 0;\n\tleft: 0;\n\theight: 100%;\n\twidth: 100%;\n}\n\n.middle {\n\tdisplay: table-cell;\n\tvertical-align: middle;\n}\n.test {\n\ttext-align: center;\n\tmargin-left: auto;\n\tmargin-right: auto;\n\twidth: 350px;\n}\n.App {\n\tfont-family: halyard-display, sans-serif;\n\tfont-weight: 400;\n\tfont-style: normal;\n\tpadding: 0px 24px;\n\ttext-align: center;\n\tmargin-top: 5%;\n}\n.App2 {\n\tfont-family: halyard-display, sans-serif;\n\tfont-weight: 400;\n\tfont-style: normal;\n\tpadding: 0px 24px;\n}\n\n/*Home*/\n.homecontainer {\n\ttext-align: center;\n\t-webkit-user-select: none;\n\t   -moz-user-select: none;\n\t    -ms-user-select: none;\n\t        user-select: none; /*Stops highlighting/selecting by user*/\n}\n\n.homecontainer h1 {\n\tcursor: pointer;\n}\n.preLogo {\n\tfont-family: halyard-display, sans-serif;\n\tdisplay: inline;\n\tfont-size: 35px;\n}\n.logo {\n\tcolor: yellow;\n}\n", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/styles/menuCard.css":
+/*!************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/styles/menuCard.css ***!
+  \************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".menu-card {\r\n\tborder-radius: 5px;\r\n\tborder-width: 5px;\r\n\tborder-style: solid;\r\n\tborder-color: #f4d3df;\r\n\tfont-family: halyard-display, sans-serif;\r\n\ttext-align: center;\r\n\tdisplay: inline-block;\r\n\tposition: relative;\r\n\twidth: 130px;\r\n\theight: 26vh;\r\n\tmargin-left: auto;\r\n\tmargin-top: 4%;\r\n\tmargin-right: 2%;\r\n}\r\n@media only screen and (max-width: 600px) {\r\n\t.menu-card {\r\n\t\tborder-width: 2px;\r\n\t}\r\n}\r\n\r\n.menu-card:hover {\r\n\tbox-shadow: -1px 15px 30px -12px black;\r\n}\r\n\r\n.menu-card__image {\r\n\twidth: 100%;\r\n\theight: 70%;\r\n\tposition: relative;\r\n}\r\n\r\n.menu-card__image img {\r\n\tmargin-top: 30px;\r\n\theight: 60%;\r\n\twidth: 50%;\r\n}\r\n\r\n.card-caption {\r\n\t/*border-top: 1px solid #bedd77;*/\r\n\tfont-size: 26px;\r\n\tcolor: black;\r\n\tfont-weight: bold;\r\n\tpadding: 5px;\r\n}\r\n", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/styles/switch.css":
+/*!**********************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/styles/switch.css ***!
+  \**********************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".topbar {\r\n\tdisplay: inline;\r\n\ttext-align: center;\r\n\tcursor: pointer;\r\n}\r\n.topbar span {\r\n\tmargin-right: 2%;\r\n\tmargin-left: 2%;\r\n}\r\n\r\n.topbarSelected {\r\n\ttext-decoration: underline;\r\n\t-webkit-text-decoration-color: red;\r\n\t        text-decoration-color: red;\r\n\tbackground-color: #ffff66;\r\n}\r\n\r\n.topbar .switch {\r\n\tposition: relative;\r\n\tdisplay: inline-block;\r\n\twidth: 100px;\r\n\theight: 25px;\r\n}\r\n@media only screen and (max-width: 400px) {\r\n\t.topbar .switch {\r\n\t\twidth: 80px;\r\n\t}\r\n}\r\n.topbar .switch input {\r\n\topacity: 0;\r\n\twidth: 0;\r\n\theight: 0;\r\n}\r\n\r\n.topbar .slider {\r\n\tposition: absolute;\r\n\tcursor: pointer;\r\n\ttop: 0;\r\n\tleft: 0;\r\n\tright: 0;\r\n\tbottom: 0;\r\n\tbackground-color: #ccc;\r\n\ttransition: .4s;\r\n}\r\n\r\n.topbar .slider:before {\r\n\tposition: absolute;\r\n\tcontent: \"\";\r\n\theight: 18px;\r\n\twidth: 26px;\r\n\tleft: 3px;\r\n\tbottom: 3.5px;\r\n\tbackground-color: white;\r\n\ttransition: .4s;\r\n}\r\n\r\n.topbar input:checked + .slider:before {\r\n\t-webkit-transform: translateX(63px);\r\n\ttransform: translateX(63px);\r\n}\r\n@media only screen and (max-width: 400px) {\r\n\t.topbar input:checked + .slider:before {\r\n\t\t-webkit-transform: translateX(45px);\r\n\t\ttransform: translateX(45px);\r\n\t}\r\n}\r\n", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/styles/userCard.css":
+/*!************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/styles/userCard.css ***!
+  \************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".user {\r\n\tfont-family: sans-serif;\r\n\ttext-align: center;\r\n}\r\n\r\n.userCardContainer {\r\n\tdisplay: inline-block;\r\n\tmargin-right: 2%;\r\n}\r\n\r\n.userCardContainer:hover {\r\n\t-webkit-transform: translateY(-10px);\r\n\t        transform: translateY(-10px);\r\n}\r\n.userCardContainer h2 {\r\n\tfont-weight: 700;\r\n\tfont-size: 1.6rem;\r\n\tmargin: 0 0 0.2rem 0;\r\n}\r\n\r\n.userCardStyle {\r\n\tfont-family: sans-serif;\r\n\ttext-align: center;\r\n\tborder: 2px solid black;\r\n\tdisplay: inline-block;\r\n\twidth: 80px;\r\n\theight: 60px;\r\n\tpadding: 4rem;\r\n\tmargin-left: auto;\r\n\tmargin-right: 2%;\r\n\tmargin-top: 2%;\r\n}\r\n\r\n.buttonCardStyle {\r\n\tfont-family: sans-serif;\r\n\ttext-align: center;\r\n\tborder: 2px solid black;\r\n\tdisplay: inline-block;\r\n\tposition: relative;\r\n\twidth: 80px;\r\n\theight: 60px;\r\n\tpadding: 4rem;\r\n\tmargin-left: auto;\r\n\tmargin-right: 2%;\r\n\tmargin-top: 2%;\r\n\tfont-size: 50px;\r\n\tbackground-color: #000000;\r\n\tcolor: #ffffff;\r\n}\r\n.inner {\r\n\twidth: 100px;\r\n\theight: 100px;\r\n\tbackground: green;\r\n\r\n\tposition: absolute;\r\n\ttop: 50%;\r\n\tleft: 50%;\r\n\r\n\t-webkit-transform: translate(-50%, -50%);\r\n\r\n\t        transform: translate(-50%, -50%);\r\n}\r\n", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./src/Arrays/animeArray.js":
+/*!**********************************!*\
+  !*** ./src/Arrays/animeArray.js ***!
+  \**********************************/
+/*! exports provided: animeHaveWatchedDB, animeWishlistDB */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "animeHaveWatchedDB", function() { return animeHaveWatchedDB; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "animeWishlistDB", function() { return animeWishlistDB; });
+var animeHaveWatchedDB = [{
+  Name: 'JoJos Bizarre Adventure',
+  Rating: 8.7,
+  Genre: 'Action',
+  Comment: ' '
+}, {
+  Name: 'Bakoman',
+  Rating: 8.4,
+  Genre: 'Slice of Life',
+  Comment: 'Sweet and lovely'
+}, {
+  Name: 'Prison School',
+  Rating: 8.6,
+  Genre: 'Comedy',
+  Comment: 'Hilarious'
+}];
+var animeWishlistDB = [{
+  Name: 'Afro Samurai',
+  Genre: 'Action',
+  Comment: 'Samurai Champlooish?'
+}, {
+  Name: 'Usagi Drop',
+  Genre: 'Slice of Life',
+  Comment: 'Blurb was emotional'
+}, {
+  Name: 'FMA Brotherhood',
+  Genre: 'Action',
+  Comment: 'Watched the wrong one apparently'
+}];
+
+/***/ }),
+
+/***/ "./src/Arrays/filmsArray.js":
+/*!**********************************!*\
+  !*** ./src/Arrays/filmsArray.js ***!
+  \**********************************/
+/*! exports provided: filmsHaveWatchedDB, filmsWishlistDB */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "filmsHaveWatchedDB", function() { return filmsHaveWatchedDB; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "filmsWishlistDB", function() { return filmsWishlistDB; });
+var filmsHaveWatchedDB = [{
+  Name: 'Gotti',
+  Rating: 10.0,
+  Genre: 'Action',
+  Comment: 'All out war....'
+}, {
+  Name: 'Bob',
+  Rating: 6.0,
+  Genre: 'Romance',
+  Comment: 'I loved it but I dont know....'
+}, {
+  Name: 'Moos',
+  Rating: 8.8,
+  Genre: 'Action',
+  Comment: 'Crazzzzzyy'
+}];
+var filmsWishlistDB = [{
+  Name: 'Bolllywood Dancing',
+  Genre: 'Action',
+  Comment: 'Gabi Joshy Gabi Kam'
+}, {
+  Name: 'Bobsled',
+  Genre: 'Romance',
+  Comment: 'Cool Runnings'
+}, {
+  Name: 'Ballet Movie',
+  Genre: 'Action',
+  Comment: 'Tip toe'
+}];
+
+/***/ }),
+
+/***/ "./src/Arrays/tvArray.js":
+/*!*******************************!*\
+  !*** ./src/Arrays/tvArray.js ***!
+  \*******************************/
+/*! exports provided: tvHaveWatchedDB, tvWishlistDB */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "tvHaveWatchedDB", function() { return tvHaveWatchedDB; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "tvWishlistDB", function() { return tvWishlistDB; });
+var tvHaveWatchedDB = [{
+  Name: 'The Wire',
+  Rating: 9.7,
+  Genre: 'Action',
+  carbohydrates: 'Masterpiece....'
+}, {
+  Name: 'Game of Thrones',
+  Rating: 8.0,
+  Genre: 'Fantasy',
+  carbohydrates: 'Last season tho :('
+}, {
+  Name: 'Rick and Morty',
+  Rating: 8.8,
+  Genre: 'Action',
+  Comment: 'Crazzzzzyy'
+}];
+var tvWishlistDB = [{
+  Name: 'The Twilight Zone',
+  Genre: 'Action',
+  Comment: 'The original Black Mirror'
+}, {
+  Name: 'The West Wing',
+  Genre: 'Political Comedy',
+  Comment: 'The Thick of It....'
+}, {
+  Name: 'Westworld',
+  Genre: 'Action',
+  Comment: ''
+}];
+
+/***/ }),
+
+/***/ "./src/Components/UserCard.js":
+/*!************************************!*\
+  !*** ./src/Components/UserCard.js ***!
+  \************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _styles_userCard_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/userCard.css */ "./src/styles/userCard.css");
+/* harmony import */ var _styles_userCard_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_userCard_css__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "C:\\Users\\musta\\Desktop\\Projects\\filmlist\\src\\Components\\UserCard.js";
+
+
+
+function userCard(props) {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "userCardContainer",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: this
+  }, props.Adding === 'true' ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "buttonCardStyle",
+    onClick: function onClick() {
+      props.setAddingUser(true);
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
+  }, "+") : react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "userCardStyle",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: __webpack_require__(/*! ../styles/user-shadow.svg */ "./src/styles/user-shadow.svg"),
+    alt: "user",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    style: {
+      marginTop: '3%'
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21
+    },
+    __self: this
+  }, props.user));
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (userCard);
+
+/***/ }),
+
+/***/ "./src/Components/input.js":
+/*!*********************************!*\
+  !*** ./src/Components/input.js ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _styles_input_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/input.css */ "./src/styles/input.css");
+/* harmony import */ var _styles_input_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_input_css__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "C:\\Users\\musta\\Desktop\\Projects\\filmlist\\src\\Components\\input.js";
+
+
+
+function Input(props) {
+  var numbers = [];
+
+  for (var i = 0; i < 11; i++) {
+    numbers.push(react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+      key: i,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 8
+      },
+      __self: this
+    }, i));
+  }
+
+  var ratingRow = function ratingRow() {
+    if (!props.wishList) {
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 13
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 14
+        },
+        __self: this
+      }, "Your Rating"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 15
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("select", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 16
+        },
+        __self: this
+      }, numbers)));
+    }
+  };
+
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    style: {
+      marginTop: '1%'
+    },
+    className: "input",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
+    onSubmit: props.handleSubmit,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("table", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tbody", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28
+    },
+    __self: this
+  }, "Name"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    onChange: function onChange(e) {
+      return props.setName(e.target.value);
+    },
+    name: "name",
+    autoComplete: "off",
+    required: true,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30
+    },
+    __self: this
+  }))), ratingRow(), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40
+    },
+    __self: this
+  }, "Genre"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42
+    },
+    __self: this
+  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46
+    },
+    __self: this
+  }, "Comment"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48
+    },
+    __self: this
+  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 52
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+    type: "submit",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 53
+    },
+    __self: this
+  }, "Submit")))))));
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (Input);
+
+/***/ }),
+
+/***/ "./src/Components/logo.js":
+/*!********************************!*\
+  !*** ./src/Components/logo.js ***!
+  \********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _styles_sofa_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./../styles/sofa.svg */ "./src/styles/sofa.svg");
+/* harmony import */ var _styles_sofa_svg__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_sofa_svg__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "C:\\Users\\musta\\Desktop\\Projects\\filmlist\\src\\Components\\logo.js";
+
+
+
+var Logo = function Logo() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    className: "image",
+    alt: "Logo",
+    src: _styles_sofa_svg__WEBPACK_IMPORTED_MODULE_1___default.a,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "preLogo",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
+  }, "movie", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", {
+    className: "logo",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: this
+  }, "RATINGS")));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Logo);
+
+/***/ }),
+
+/***/ "./src/Components/menuCard.js":
+/*!************************************!*\
+  !*** ./src/Components/menuCard.js ***!
+  \************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _styles_menuCard_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/menuCard.css */ "./src/styles/menuCard.css");
+/* harmony import */ var _styles_menuCard_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_menuCard_css__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "C:\\Users\\musta\\Desktop\\Projects\\filmlist\\src\\Components\\menuCard.js";
+
+
+
+function MenuCard(props) {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "menu-card",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "menu-card__image",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: __webpack_require__("./src/styles sync recursive ^\\.\\/.*\\.svg$")("./".concat(props.name.toLowerCase(), ".svg")),
+    alt: props.alt,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "card-caption",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
+  }, props.name));
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (MenuCard);
+
+/***/ }),
+
+/***/ "./src/Components/switch.js":
+/*!**********************************!*\
+  !*** ./src/Components/switch.js ***!
+  \**********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _styles_switch_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./../styles/switch.css */ "./src/styles/switch.css");
+/* harmony import */ var _styles_switch_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_switch_css__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "C:\\Users\\musta\\Desktop\\Projects\\filmlist\\src\\Components\\switch.js";
+
+
+
+function Switch(props) {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "topbar",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: props.selected,
+    onClick: props.toggleSelect,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: this
+  }, "Have watched"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+    className: "switch",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    type: "checkbox",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    onClick: props.toggleSelect,
+    className: "slider",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: props.selected1,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: this
+  }, "Will watch"));
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (Switch);
+
+/***/ }),
+
+/***/ "./src/Components/table.js":
+/*!*********************************!*\
+  !*** ./src/Components/table.js ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _jsxFileName = "C:\\Users\\musta\\Desktop\\Projects\\filmlist\\src\\Components\\table.js";
+
+
+function Table(props) {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("table", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("thead", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("th", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: this
+  }, "Name"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("th", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
+  }, "Your Rating"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("th", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }, "Genre"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("th", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  }, "Comment"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("th", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tbody", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: this
+  }, props.films.map(function (film, i) {
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", {
+      key: i,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 19
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 20
+      },
+      __self: this
+    }, props.films[i].Name), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 21
+      },
+      __self: this
+    }, props.films[i].Rating), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 22
+      },
+      __self: this
+    }, props.films[i].Genre), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 23
+      },
+      __self: this
+    }, props.films[i].Comment), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 24
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+      onClick: function onClick(i) {
+        return props.handleDeleteRow(i);
+      },
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 25
+      },
+      __self: this
+    }, "Delete")));
+  }))));
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (Table);
+
+/***/ }),
+
+/***/ "./src/Components/wishlistTable.js":
+/*!*****************************************!*\
+  !*** ./src/Components/wishlistTable.js ***!
+  \*****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _jsxFileName = "C:\\Users\\musta\\Desktop\\Projects\\filmlist\\src\\Components\\wishlistTable.js";
+
+
+function WishlistTable(props) {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("table", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("thead", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("th", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: this
+  }, "Name"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("th", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
+  }, "Genre"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("th", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }, "Comment"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("th", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tbody", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  }, props.films.map(function (film, i) {
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", {
+      key: i,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 18
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 19
+      },
+      __self: this
+    }, props.films[i].Name), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 20
+      },
+      __self: this
+    }, props.films[i].Genre), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 21
+      },
+      __self: this
+    }, props.films[i].Comment), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 22
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+      onClick: function onClick(i) {
+        return props.handleDeleteRow(i);
+      },
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 23
+      },
+      __self: this
+    }, "Delete")));
+  }))));
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (WishlistTable);
+
+/***/ }),
+
+/***/ "./src/Pages/Container.js":
+/*!********************************!*\
+  !*** ./src/Pages/Container.js ***!
+  \********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var C_Users_musta_Desktop_Projects_filmlist_node_modules_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/toConsumableArray */ "./node_modules/@babel/runtime/helpers/esm/toConsumableArray.js");
+/* harmony import */ var C_Users_musta_Desktop_Projects_filmlist_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/slicedToArray */ "./node_modules/@babel/runtime/helpers/esm/slicedToArray.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react_spring__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-spring */ "./node_modules/react-spring/web.js");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var _Store_Store__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../Store/Store */ "./src/Store/Store.js");
+/* harmony import */ var _Components_switch__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../Components/switch */ "./src/Components/switch.js");
+/* harmony import */ var _Components_input__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../Components/input */ "./src/Components/input.js");
+/* harmony import */ var _Components_table__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../Components/table */ "./src/Components/table.js");
+/* harmony import */ var _Components_wishlistTable__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../Components/wishlistTable */ "./src/Components/wishlistTable.js");
+/* harmony import */ var _Arrays_filmsArray_js__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../Arrays/filmsArray.js */ "./src/Arrays/filmsArray.js");
+/* harmony import */ var _Arrays_tvArray_js__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../Arrays/tvArray.js */ "./src/Arrays/tvArray.js");
+/* harmony import */ var _Arrays_animeArray_js__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../Arrays/animeArray.js */ "./src/Arrays/animeArray.js");
+/* harmony import */ var _styles_container_css__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./../styles/container.css */ "./src/styles/container.css");
+/* harmony import */ var _styles_container_css__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(_styles_container_css__WEBPACK_IMPORTED_MODULE_13__);
+
+
+var _jsxFileName = "C:\\Users\\musta\\Desktop\\Projects\\filmlist\\src\\Pages\\Container.js";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var newTable = _Arrays_tvArray_js__WEBPACK_IMPORTED_MODULE_11__["tvHaveWatchedDB"];
+
+function Container(props) {
+  //Context Api
+  var _useContext = Object(react__WEBPACK_IMPORTED_MODULE_2__["useContext"])(_Store_Store__WEBPACK_IMPORTED_MODULE_5__["PageContext"]),
+      _useContext2 = Object(C_Users_musta_Desktop_Projects_filmlist_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_1__["default"])(_useContext, 1),
+      page = _useContext2[0]; //Table setup
+
+
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_2__["useState"])(newTable),
+      _useState2 = Object(C_Users_musta_Desktop_Projects_filmlist_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_1__["default"])(_useState, 2),
+      table = _useState2[0],
+      setTable = _useState2[1]; //Form Setup:
+  //The setup for handling data from the input form in the <Input /> component
+  //Using React Hooks ,we append the information submitted to the local state
+
+
+  var _useState3 = Object(react__WEBPACK_IMPORTED_MODULE_2__["useState"])(''),
+      _useState4 = Object(C_Users_musta_Desktop_Projects_filmlist_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_1__["default"])(_useState3, 2),
+      name = _useState4[0],
+      setName = _useState4[1];
+
+  var _useState5 = Object(react__WEBPACK_IMPORTED_MODULE_2__["useState"])(''),
+      _useState6 = Object(C_Users_musta_Desktop_Projects_filmlist_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_1__["default"])(_useState5, 2),
+      rating = _useState6[0],
+      setRating = _useState6[1];
+
+  var _useState7 = Object(react__WEBPACK_IMPORTED_MODULE_2__["useState"])(''),
+      _useState8 = Object(C_Users_musta_Desktop_Projects_filmlist_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_1__["default"])(_useState7, 2),
+      comment = _useState8[0],
+      setComment = _useState8[1]; //This function handles submit button. We use the information gathered in the local state
+
+
+  function handleSubmit(e) {
+    e.preventDefault();
+    alert('* ' + name + ' * has been added');
+    var obj = {
+      Name: name,
+      Rating: rating,
+      Genre: 'Normal',
+      Comment: comment
+    };
+    console.log(obj);
+    newTable.push(obj);
+    setName('');
+    setDisplay('none');
+  } //This function allows rows to be deleted
+
+
+  function handleDeleteRow(i) {
+    var rows = Object(C_Users_musta_Desktop_Projects_filmlist_node_modules_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_0__["default"])(table);
+
+    rows.splice(i, 1);
+    setTable(rows);
+  } //Animations:
+  //React Spring,using React Hooks, allows animation.
+
+
+  var slide = Object(react_spring__WEBPACK_IMPORTED_MODULE_3__["useSpring"])({
+    marginLeft: 0,
+    from: {
+      marginLeft: 200
+    },
+    config: {
+      friction: 60
+    }
+  }); //Animating Input Display
+
+  var _useState9 = Object(react__WEBPACK_IMPORTED_MODULE_2__["useState"])('none'),
+      _useState10 = Object(C_Users_musta_Desktop_Projects_filmlist_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_1__["default"])(_useState9, 2),
+      display = _useState10[0],
+      setDisplay = _useState10[1];
+
+  function toggleDisplay() {
+    setDisplay(display === 'none' ? '' : 'none');
+  } //Animating Slider and Highlighting the Selected Option
+
+
+  var _useState11 = Object(react__WEBPACK_IMPORTED_MODULE_2__["useState"])('topbarSelected'),
+      _useState12 = Object(C_Users_musta_Desktop_Projects_filmlist_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_1__["default"])(_useState11, 2),
+      selected = _useState12[0],
+      setSelected = _useState12[1];
+
+  var _useState13 = Object(react__WEBPACK_IMPORTED_MODULE_2__["useState"])(''),
+      _useState14 = Object(C_Users_musta_Desktop_Projects_filmlist_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_1__["default"])(_useState13, 2),
+      selected1 = _useState14[0],
+      setSelected1 = _useState14[1];
+
+  var _useState15 = Object(react__WEBPACK_IMPORTED_MODULE_2__["useState"])(''),
+      _useState16 = Object(C_Users_musta_Desktop_Projects_filmlist_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_1__["default"])(_useState15, 2),
+      haveWatched = _useState16[0],
+      setHaveWatched = _useState16[1];
+
+  var _useState17 = Object(react__WEBPACK_IMPORTED_MODULE_2__["useState"])(''),
+      _useState18 = Object(C_Users_musta_Desktop_Projects_filmlist_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_1__["default"])(_useState17, 2),
+      willWatch = _useState18[0],
+      setWillWatch = _useState18[1];
+
+  function toggleSelect() {
+    //willWatch === false ? setWillWatch(true) : setWillWatch(false);
+    if (haveWatched === false && willWatch === true) {
+      setHaveWatched(true);
+      setWillWatch(false);
+      setSelected('topbarSelected');
+      setSelected1('');
+    } else if (haveWatched === true && willWatch === false) {
+      setHaveWatched(false);
+      setWillWatch(true);
+      setSelected('');
+      setSelected1('topbarSelected');
+    }
+  } //Retrieving Data:
+  //useEffect to determine table on mount
+
+
+  Object(react__WEBPACK_IMPORTED_MODULE_2__["useEffect"])(function () {
+    setHaveWatched(true);
+    setWillWatch(false);
+  }, []);
+  Object(react__WEBPACK_IMPORTED_MODULE_2__["useEffect"])(function () {
+    console.log('Have watched:', haveWatched);
+    console.log('Will watch:', willWatch);
+    selectingTable();
+  }, [haveWatched]); // a function to display the correcct table based on the page and toggle option
+
+  function selectingTable() {
+    if (page === 'Film') {
+      if (haveWatched) {
+        newTable = _Arrays_filmsArray_js__WEBPACK_IMPORTED_MODULE_10__["filmsHaveWatchedDB"];
+        setTable(newTable);
+      } else if (!haveWatched) {
+        newTable = _Arrays_filmsArray_js__WEBPACK_IMPORTED_MODULE_10__["filmsWishlistDB"];
+        setTable(newTable);
+      }
+    } else if (page === 'TV') {
+      if (haveWatched === true && willWatch === false) {
+        newTable = _Arrays_tvArray_js__WEBPACK_IMPORTED_MODULE_11__["tvHaveWatchedDB"];
+        setTable(newTable);
+      } else if (haveWatched === false && willWatch === true) {
+        newTable = _Arrays_tvArray_js__WEBPACK_IMPORTED_MODULE_11__["tvWishlistDB"];
+        setTable(newTable);
+      }
+    } else if (page === 'Anime') {
+      if (haveWatched === true && willWatch === false) {
+        newTable = _Arrays_animeArray_js__WEBPACK_IMPORTED_MODULE_12__["animeHaveWatchedDB"];
+        setTable(newTable);
+      } else if (haveWatched === false && willWatch === true) {
+        newTable = _Arrays_animeArray_js__WEBPACK_IMPORTED_MODULE_12__["animeWishlistDB"];
+        setTable(newTable);
+      }
+    }
+  }
+
+  return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_spring__WEBPACK_IMPORTED_MODULE_3__["animated"].div, {
+    style: slide,
+    className: "filmscontainer",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 118
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_4__["Link"], {
+    to: "/",
+    style: {
+      textDecoration: 'none',
+      color: 'black'
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 119
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("p", {
+    onClick: function onClick() {
+      return console.log('Return back home using react router');
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 120
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("i", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 121
+    },
+    __self: this
+  }, "Home"), "/", react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("b", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 122
+    },
+    __self: this
+  }, page))), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_Components_switch__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    selected: selected,
+    selected1: selected1,
+    toggleSelect: toggleSelect,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 125
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("p", {
+    onClick: toggleDisplay,
+    className: "adding",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 126
+    },
+    __self: this
+  }, "+ Add ", page), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+    style: {
+      display: display
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 129
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_Components_input__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    wishList: willWatch,
+    handleSubmit: handleSubmit,
+    setName: setName,
+    setRating: setRating,
+    setComment: setComment,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 130
+    },
+    __self: this
+  })), willWatch === false ? react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_Components_table__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    films: table,
+    handleDeleteRow: handleDeleteRow,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 139
+    },
+    __self: this
+  }) : react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_Components_wishlistTable__WEBPACK_IMPORTED_MODULE_9__["default"], {
+    films: table,
+    handleDeleteRow: handleDeleteRow,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 141
+    },
+    __self: this
+  }));
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (Container);
+/*
+1-Local storage storing local users and profile apge
+2-MongoDB
+3-Dockers
+ */
+
+/***/ }),
+
+/***/ "./src/Pages/Loading.js":
+/*!******************************!*\
+  !*** ./src/Pages/Loading.js ***!
+  \******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_spring__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-spring */ "./node_modules/react-spring/web.js");
+/* harmony import */ var _styles_sofa_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./../styles/sofa.svg */ "./src/styles/sofa.svg");
+/* harmony import */ var _styles_sofa_svg__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_styles_sofa_svg__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _styles_menu_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./../styles/menu.css */ "./src/styles/menu.css");
+/* harmony import */ var _styles_menu_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_styles_menu_css__WEBPACK_IMPORTED_MODULE_3__);
+var _jsxFileName = "C:\\Users\\musta\\Desktop\\Projects\\filmlist\\src\\Pages\\Loading.js";
+
+
+
+
+
+function Loading() {
+  var slide = Object(react_spring__WEBPACK_IMPORTED_MODULE_1__["useSpring"])({
+    opacity: 1,
+    marginLeft: 0,
+    display: '',
+    from: {
+      opacity: 0,
+      marginLeft: -40,
+      display: 'none'
+    },
+    delay: 1000
+  });
+  var fade = Object(react_spring__WEBPACK_IMPORTED_MODULE_1__["useSpring"])({
+    opacity: 1,
+    from: {
+      opacity: 0
+    }
+  });
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "outer",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "middle",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "test",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_spring__WEBPACK_IMPORTED_MODULE_1__["animated"].img, {
+    className: "image",
+    style: fade,
+    src: _styles_sofa_svg__WEBPACK_IMPORTED_MODULE_2___default.a,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_spring__WEBPACK_IMPORTED_MODULE_1__["animated"].p, {
+    style: slide,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
+    },
+    __self: this
+  }, "movie", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", {
+    className: "logo",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21
+    },
+    __self: this
+  }, "RATINGS")))));
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (Loading);
+
+/***/ }),
+
+/***/ "./src/Pages/MainMenu.js":
+/*!*******************************!*\
+  !*** ./src/Pages/MainMenu.js ***!
+  \*******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var C_Users_musta_Desktop_Projects_filmlist_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/slicedToArray */ "./node_modules/@babel/runtime/helpers/esm/slicedToArray.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_spring__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-spring */ "./node_modules/react-spring/web.js");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var _Store_Store__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../Store/Store */ "./src/Store/Store.js");
+/* harmony import */ var _Components_logo__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./../Components/logo */ "./src/Components/logo.js");
+/* harmony import */ var _Components_menuCard__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./../Components/menuCard */ "./src/Components/menuCard.js");
+/* harmony import */ var _styles_menu_css__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./../styles/menu.css */ "./src/styles/menu.css");
+/* harmony import */ var _styles_menu_css__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_styles_menu_css__WEBPACK_IMPORTED_MODULE_7__);
+
+var _jsxFileName = "C:\\Users\\musta\\Desktop\\Projects\\filmlist\\src\\Pages\\MainMenu.js";
+
+
+
+
+
+
+
+
+function MainMenu(props) {
+  var slide = Object(react_spring__WEBPACK_IMPORTED_MODULE_2__["useSpring"])({
+    opacity: 1,
+    from: {
+      opacity: 0
+    },
+    config: {
+      tension: 30
+    }
+  });
+
+  var _useContext = Object(react__WEBPACK_IMPORTED_MODULE_1__["useContext"])(_Store_Store__WEBPACK_IMPORTED_MODULE_4__["PageContext"]),
+      _useContext2 = Object(C_Users_musta_Desktop_Projects_filmlist_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_useContext, 2),
+      page = _useContext2[0],
+      setPage = _useContext2[1];
+
+  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_spring__WEBPACK_IMPORTED_MODULE_2__["animated"].div, {
+    style: slide,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "App",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Components_logo__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_3__["Link"], {
+    onClick: function onClick() {
+      return setPage('Film');
+    },
+    to: "/films",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Components_menuCard__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    name: "Film",
+    alt: "mainMenu_film_option",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_3__["Link"], {
+    onClick: function onClick() {
+      return setPage('TV');
+    },
+    to: "/tv",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Components_menuCard__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    name: "TV",
+    alt: "mainMenu_tv_option",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_3__["Link"], {
+    onClick: function onClick() {
+      return setPage('Anime');
+    },
+    to: "/anime",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Components_menuCard__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    name: "Anime",
+    alt: "mainMenu_anime_option",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
+    },
+    __self: this
+  }))));
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (MainMenu);
+
+/***/ }),
+
+/***/ "./src/Pages/User.js":
+/*!***************************!*\
+  !*** ./src/Pages/User.js ***!
+  \***************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var C_Users_musta_Desktop_Projects_filmlist_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/slicedToArray */ "./node_modules/@babel/runtime/helpers/esm/slicedToArray.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _Components_UserCard__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Components/UserCard */ "./src/Components/UserCard.js");
+/* harmony import */ var _styles_userCard_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../styles/userCard.css */ "./src/styles/userCard.css");
+/* harmony import */ var _styles_userCard_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_styles_userCard_css__WEBPACK_IMPORTED_MODULE_3__);
+
+var _jsxFileName = "C:\\Users\\musta\\Desktop\\Projects\\filmlist\\src\\Pages\\User.js";
+
+
+
+
+function AddingUserForm(props) {
+  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "user",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: this
+  }, "Add Profile"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("form", {
+    onSubmit: props.handleSubmit,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("label", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }, "Your Name: "), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
+    onChange: function onChange(e) {
+      return props.setFirstName(e.target.value);
+    },
+    name: "name",
+    autoComplete: "off",
+    required: true,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
+    type: "submit",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  }, "Submit")));
+}
+
+function DisplayUserCard(props) {
+  var usersList = localStorage.getItem('users') === 'null' ? [] : JSON.parse(localStorage.getItem('users'));
+  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "user",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
+    },
+    __self: this
+  }, "Whose Lists?"), usersList.map(function (user, i) {
+    return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Components_UserCard__WEBPACK_IMPORTED_MODULE_2__["default"], {
+      key: i,
+      user: usersList[i].FirstName,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 25
+      },
+      __self: this
+    });
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Components_UserCard__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    Adding: "true",
+    user: "Add User",
+    setAddingUser: props.setAddingUser,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28
+    },
+    __self: this
+  }));
+}
+
+function User() {
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(false),
+      _useState2 = Object(C_Users_musta_Desktop_Projects_filmlist_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_useState, 2),
+      addingUser = _useState2[0],
+      setAddingUser = _useState2[1];
+
+  var _useState3 = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(''),
+      _useState4 = Object(C_Users_musta_Desktop_Projects_filmlist_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_useState3, 2),
+      firstName = _useState4[0],
+      setFirstName = _useState4[1];
+
+  var usersList = JSON.parse(localStorage.getItem('users'));
+  Object(react__WEBPACK_IMPORTED_MODULE_1__["useEffect"])(function () {
+    localStorage.setItem('users', JSON.stringify(usersList));
+  }, [usersList]);
+
+  function handleSubmit(e) {
+    e.preventDefault();
+    alert('Thank you, ' + firstName + '. You have been added');
+    var newUsersArray = [];
+    var obj = {
+      FirstName: firstName,
+      ID: newUsersArray.length + 1
+    }; //console.log(obj);
+
+    newUsersArray.push(obj);
+    localStorage.clear();
+    localStorage.setItem('users', JSON.stringify(newUsersArray)); //console.log(newUsersArray);
+    //console.log(localStorage);
+
+    setFirstName('');
+    setAddingUser(false);
+  }
+
+  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "user",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 60
+    },
+    __self: this
+  }, addingUser ? react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(AddingUserForm, {
+    handleSubmit: handleSubmit,
+    setFirstName: setFirstName,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 62
+    },
+    __self: this
+  }) : react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(DisplayUserCard, {
+    setAddingUser: setAddingUser,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 64
+    },
+    __self: this
+  }));
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (User);
+
+/***/ }),
+
+/***/ "./src/Router/Error.js":
+/*!*****************************!*\
+  !*** ./src/Router/Error.js ***!
+  \*****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _jsxFileName = "C:\\Users\\musta\\Desktop\\Projects\\filmlist\\src\\Router\\Error.js";
+
+
+var Error = function Error() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: this
+  }, "Sorry the link provided doesn't work."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "/",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: this
+  }, "Head back to home page"));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Error);
+
+/***/ }),
+
+/***/ "./src/Router/ProtectedRoute.js":
+/*!**************************************!*\
+  !*** ./src/Router/ProtectedRoute.js ***!
+  \**************************************/
+/*! exports provided: ProtectedRoute */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ProtectedRoute", function() { return ProtectedRoute; });
+/* harmony import */ var C_Users_musta_Desktop_Projects_filmlist_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/slicedToArray */ "./node_modules/@babel/runtime/helpers/esm/slicedToArray.js");
+/* harmony import */ var C_Users_musta_Desktop_Projects_filmlist_node_modules_babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/objectWithoutProperties */ "./node_modules/@babel/runtime/helpers/esm/objectWithoutProperties.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var _Store_Store__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./../Store/Store */ "./src/Store/Store.js");
+
+
+var _jsxFileName = "C:\\Users\\musta\\Desktop\\Projects\\filmlist\\src\\Router\\ProtectedRoute.js";
+
+
+
+var ProtectedRoute = function ProtectedRoute(_ref) {
+  var Component = _ref.component,
+      rest = Object(C_Users_musta_Desktop_Projects_filmlist_node_modules_babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__["default"])(_ref, ["component"]);
+
+  var _useContext = Object(react__WEBPACK_IMPORTED_MODULE_2__["useContext"])(_Store_Store__WEBPACK_IMPORTED_MODULE_4__["PageContext"]),
+      _useContext2 = Object(C_Users_musta_Desktop_Projects_filmlist_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_useContext, 1),
+      page = _useContext2[0];
+
+  return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_3__["Route"], Object.assign({}, rest, {
+    render: function render(props) {
+      if (page === 'Home') {
+        return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_3__["Redirect"], {
+          to: {
+            pathname: '/',
+            state: {
+              from: props.location
+            }
+          },
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 13
+          },
+          __self: this
+        });
+      } else {
+        return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(Component, Object.assign({}, props, {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 23
+          },
+          __self: this
+        }));
+      }
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
+  }));
+};
+
+/***/ }),
+
+/***/ "./src/Router/Router.js":
+/*!******************************!*\
+  !*** ./src/Router/Router.js ***!
+  \******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var C_Users_musta_Desktop_Projects_filmlist_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/slicedToArray */ "./node_modules/@babel/runtime/helpers/esm/slicedToArray.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var _Store_Store__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./../Store/Store */ "./src/Store/Store.js");
+/* harmony import */ var _Router_ProtectedRoute__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../Router/ProtectedRoute */ "./src/Router/ProtectedRoute.js");
+/* harmony import */ var _Pages_Container__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../Pages/Container */ "./src/Pages/Container.js");
+/* harmony import */ var _Pages_Loading__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./../Pages/Loading */ "./src/Pages/Loading.js");
+/* harmony import */ var _Pages_MainMenu_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../Pages/MainMenu.js */ "./src/Pages/MainMenu.js");
+/* harmony import */ var _Error_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./Error.js */ "./src/Router/Error.js");
+
+var _jsxFileName = "C:\\Users\\musta\\Desktop\\Projects\\filmlist\\src\\Router\\Router.js";
+
+
+
+
+
+
+
+
+
+function Display() {
+  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Store_Store__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["BrowserRouter"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Switch"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
+    path: "/",
+    exact: true,
+    component: function component(props) {
+      return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Pages_MainMenu_js__WEBPACK_IMPORTED_MODULE_7__["default"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 15
+        },
+        __self: this
+      });
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Router_ProtectedRoute__WEBPACK_IMPORTED_MODULE_4__["ProtectedRoute"], {
+    path: "/films/",
+    component: function component(props) {
+      return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Pages_Container__WEBPACK_IMPORTED_MODULE_5__["default"], Object.assign({}, props, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 16
+        },
+        __self: this
+      }));
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Router_ProtectedRoute__WEBPACK_IMPORTED_MODULE_4__["ProtectedRoute"], {
+    path: "/tv/",
+    component: function component(props) {
+      return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Pages_Container__WEBPACK_IMPORTED_MODULE_5__["default"], Object.assign({}, props, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 17
+        },
+        __self: this
+      }));
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Router_ProtectedRoute__WEBPACK_IMPORTED_MODULE_4__["ProtectedRoute"], {
+    path: "/anime/",
+    component: function component(props) {
+      return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Pages_Container__WEBPACK_IMPORTED_MODULE_5__["default"], Object.assign({}, props, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 18
+        },
+        __self: this
+      }));
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
+    component: _Error_js__WEBPACK_IMPORTED_MODULE_8__["default"],
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    },
+    __self: this
+  }))));
+}
+
+function LoadingSetup() {
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(true),
+      _useState2 = Object(C_Users_musta_Desktop_Projects_filmlist_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_useState, 2),
+      isLoading = _useState2[0],
+      setLoading = _useState2[1];
+
+  var element = isLoading ? react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Pages_Loading__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28
+    },
+    __self: this
+  }) : react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Display, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28
+    },
+    __self: this
+  });
+  setTimeout(function () {
+    setLoading(false);
+  }, 2500);
+  return element;
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (LoadingSetup);
+
+/***/ }),
+
+/***/ "./src/Store/Store.js":
+/*!****************************!*\
+  !*** ./src/Store/Store.js ***!
+  \****************************/
+/*! exports provided: PageContext, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PageContext", function() { return PageContext; });
+/* harmony import */ var C_Users_musta_Desktop_Projects_filmlist_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/slicedToArray */ "./node_modules/@babel/runtime/helpers/esm/slicedToArray.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+
+var _jsxFileName = "C:\\Users\\musta\\Desktop\\Projects\\filmlist\\src\\Store\\Store.js";
+
+var PageContext = react__WEBPACK_IMPORTED_MODULE_1___default.a.createContext('Home');
+
+var Store = function Store(_ref) {
+  var children = _ref.children;
+
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])('Home'),
+      _useState2 = Object(C_Users_musta_Desktop_Projects_filmlist_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_useState, 2),
+      page = _useState2[0],
+      setPage = _useState2[1];
+
+  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(PageContext.Provider, {
+    value: [page, setPage],
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
+  }, children);
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Store);
+
+/***/ }),
+
+/***/ "./src/index.js":
+/*!**********************!*\
+  !*** ./src/index.js ***!
+  \**********************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _styles_index_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./styles/index.css */ "./src/styles/index.css");
+/* harmony import */ var _styles_index_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_styles_index_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _Router_Router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Router/Router */ "./src/Router/Router.js");
+/* harmony import */ var _Pages_User_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Pages/User.js */ "./src/Pages/User.js");
+/* harmony import */ var _serviceWorker__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./serviceWorker */ "./src/serviceWorker.js");
+var _jsxFileName = "C:\\Users\\musta\\Desktop\\Projects\\filmlist\\src\\index.js";
+
+
+ //import Test from './Test/Test';
+
+
+
+
+react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render(react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Pages_User_js__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 9
+  },
+  __self: undefined
+}), document.getElementById('root')); // If you want your app to work offline and load faster, you can change
+// unregister() to register() below. Note this comes with some pitfalls.
+// Learn more about service workers: https://bit.ly/CRA-PWA
+
+_serviceWorker__WEBPACK_IMPORTED_MODULE_5__["unregister"](); //<<<<<<<TO DO LIST>>>>>>>>>>
+//When adding film/tv/anime search using IMDB OR MAl database.
+//retrieve them values and use that to display photo
+//and the respective databases' photo and ratings
+//Page transition
+//??Do I need comment section.
+//If yes research inline edting for comment.Might need to add that(contenteditable)
+//A Netflix availability field on table.
+//Maybe only will watch section
+//When you click on a value redirect you to page
+//showing further info
+//So for now we must finish frontend design
+//and imdb/MAL api connection
+//after all that a login page
+//Frontend
+//IMDB page
+//Backend
+//Later on we must store values for each user
+//Authenticate google and use user id from google to store their data
+//Store info
+
+/***/ }),
+
+/***/ "./src/serviceWorker.js":
+/*!******************************!*\
+  !*** ./src/serviceWorker.js ***!
+  \******************************/
+/*! exports provided: register, unregister */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "register", function() { return register; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "unregister", function() { return unregister; });
+// This optional code is used to register a service worker.
+// register() is not called by default.
+// This lets the app load faster on subsequent visits in production, and gives
+// it offline capabilities. However, it also means that developers (and users)
+// will only see deployed updates on subsequent visits to a page, after all the
+// existing tabs open on the page have been closed, since previously cached
+// resources are updated in the background.
+// To learn more about the benefits of this model and instructions on how to
+// opt-in, read https://bit.ly/CRA-PWA
+var isLocalhost = Boolean(window.location.hostname === 'localhost' || // [::1] is the IPv6 localhost address.
+window.location.hostname === '[::1]' || // 127.0.0.1/8 is considered localhost for IPv4.
+window.location.hostname.match(/^127(?:\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}$/));
+function register(config) {
+  if (false) { var publicUrl; }
+}
+
+function registerValidSW(swUrl, config) {
+  navigator.serviceWorker.register(swUrl).then(function (registration) {
+    registration.onupdatefound = function () {
+      var installingWorker = registration.installing;
+
+      if (installingWorker == null) {
+        return;
+      }
+
+      installingWorker.onstatechange = function () {
+        if (installingWorker.state === 'installed') {
+          if (navigator.serviceWorker.controller) {
+            // At this point, the updated precached content has been fetched,
+            // but the previous service worker will still serve the older
+            // content until all client tabs are closed.
+            console.log('New content is available and will be used when all ' + 'tabs for this page are closed. See https://bit.ly/CRA-PWA.'); // Execute callback
+
+            if (config && config.onUpdate) {
+              config.onUpdate(registration);
+            }
+          } else {
+            // At this point, everything has been precached.
+            // It's the perfect time to display a
+            // "Content is cached for offline use." message.
+            console.log('Content is cached for offline use.'); // Execute callback
+
+            if (config && config.onSuccess) {
+              config.onSuccess(registration);
+            }
+          }
+        }
+      };
+    };
+  }).catch(function (error) {
+    console.error('Error during service worker registration:', error);
+  });
+}
+
+function checkValidServiceWorker(swUrl, config) {
+  // Check if the service worker can be found. If it can't reload the page.
+  fetch(swUrl).then(function (response) {
+    // Ensure service worker exists, and that we really are getting a JS file.
+    var contentType = response.headers.get('content-type');
+
+    if (response.status === 404 || contentType != null && contentType.indexOf('javascript') === -1) {
+      // No service worker found. Probably a different app. Reload the page.
+      navigator.serviceWorker.ready.then(function (registration) {
+        registration.unregister().then(function () {
+          window.location.reload();
+        });
+      });
+    } else {
+      // Service worker found. Proceed as normal.
+      registerValidSW(swUrl, config);
+    }
+  }).catch(function () {
+    console.log('No internet connection found. App is running in offline mode.');
+  });
+}
+
+function unregister() {
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.ready.then(function (registration) {
+      registration.unregister();
+    });
+  }
+}
+
+/***/ }),
+
+/***/ "./src/styles sync recursive ^\\.\\/.*\\.svg$":
+/*!***************************************!*\
+  !*** ./src/styles sync ^\.\/.*\.svg$ ***!
+  \***************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var map = {
+	"./anime.svg": "./src/styles/anime.svg",
+	"./film.svg": "./src/styles/film.svg",
+	"./sofa.svg": "./src/styles/sofa.svg",
+	"./tv.svg": "./src/styles/tv.svg",
+	"./user-shadow.svg": "./src/styles/user-shadow.svg"
+};
+
+
+function webpackContext(req) {
+	var id = webpackContextResolve(req);
+	return __webpack_require__(id);
+}
+function webpackContextResolve(req) {
+	var id = map[req];
+	if(!(id + 1)) { // check for number or string
+		var e = new Error("Cannot find module '" + req + "'");
+		e.code = 'MODULE_NOT_FOUND';
+		throw e;
+	}
+	return id;
+}
+webpackContext.keys = function webpackContextKeys() {
+	return Object.keys(map);
+};
+webpackContext.resolve = webpackContextResolve;
+module.exports = webpackContext;
+webpackContext.id = "./src/styles sync recursive ^\\.\\/.*\\.svg$";
+
+/***/ }),
+
+/***/ "./src/styles/anime.svg":
+/*!******************************!*\
+  !*** ./src/styles/anime.svg ***!
+  \******************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/anime.c6110b7d.svg";
+
+/***/ }),
+
+/***/ "./src/styles/container.css":
+/*!**********************************!*\
+  !*** ./src/styles/container.css ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../node_modules/css-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./container.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/styles/container.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(true) {
+	module.hot.accept(/*! !../../node_modules/css-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./container.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/styles/container.css", function() {
+		var newContent = __webpack_require__(/*! !../../node_modules/css-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./container.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/styles/container.css");
+
+		if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
+
+		var locals = (function(a, b) {
+			var key, idx = 0;
+
+			for(key in a) {
+				if(!b || a[key] !== b[key]) return false;
+				idx++;
+			}
+
+			for(key in b) idx--;
+
+			return idx === 0;
+		}(content.locals, newContent.locals));
+
+		if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
+
+		update(newContent);
+	});
+
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+
+/***/ "./src/styles/film.svg":
+/*!*****************************!*\
+  !*** ./src/styles/film.svg ***!
+  \*****************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/film.9231dfe5.svg";
+
+/***/ }),
+
+/***/ "./src/styles/index.css":
+/*!******************************!*\
+  !*** ./src/styles/index.css ***!
+  \******************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../node_modules/css-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./index.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/styles/index.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(true) {
+	module.hot.accept(/*! !../../node_modules/css-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./index.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/styles/index.css", function() {
+		var newContent = __webpack_require__(/*! !../../node_modules/css-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./index.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/styles/index.css");
+
+		if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
+
+		var locals = (function(a, b) {
+			var key, idx = 0;
+
+			for(key in a) {
+				if(!b || a[key] !== b[key]) return false;
+				idx++;
+			}
+
+			for(key in b) idx--;
+
+			return idx === 0;
+		}(content.locals, newContent.locals));
+
+		if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
+
+		update(newContent);
+	});
+
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+
+/***/ "./src/styles/input.css":
+/*!******************************!*\
+  !*** ./src/styles/input.css ***!
+  \******************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../node_modules/css-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./input.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/styles/input.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(true) {
+	module.hot.accept(/*! !../../node_modules/css-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./input.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/styles/input.css", function() {
+		var newContent = __webpack_require__(/*! !../../node_modules/css-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./input.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/styles/input.css");
+
+		if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
+
+		var locals = (function(a, b) {
+			var key, idx = 0;
+
+			for(key in a) {
+				if(!b || a[key] !== b[key]) return false;
+				idx++;
+			}
+
+			for(key in b) idx--;
+
+			return idx === 0;
+		}(content.locals, newContent.locals));
+
+		if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
+
+		update(newContent);
+	});
+
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+
+/***/ "./src/styles/menu.css":
+/*!*****************************!*\
+  !*** ./src/styles/menu.css ***!
+  \*****************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../node_modules/css-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./menu.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/styles/menu.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(true) {
+	module.hot.accept(/*! !../../node_modules/css-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./menu.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/styles/menu.css", function() {
+		var newContent = __webpack_require__(/*! !../../node_modules/css-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./menu.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/styles/menu.css");
+
+		if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
+
+		var locals = (function(a, b) {
+			var key, idx = 0;
+
+			for(key in a) {
+				if(!b || a[key] !== b[key]) return false;
+				idx++;
+			}
+
+			for(key in b) idx--;
+
+			return idx === 0;
+		}(content.locals, newContent.locals));
+
+		if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
+
+		update(newContent);
+	});
+
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+
+/***/ "./src/styles/menuCard.css":
+/*!*********************************!*\
+  !*** ./src/styles/menuCard.css ***!
+  \*********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../node_modules/css-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./menuCard.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/styles/menuCard.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(true) {
+	module.hot.accept(/*! !../../node_modules/css-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./menuCard.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/styles/menuCard.css", function() {
+		var newContent = __webpack_require__(/*! !../../node_modules/css-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./menuCard.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/styles/menuCard.css");
+
+		if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
+
+		var locals = (function(a, b) {
+			var key, idx = 0;
+
+			for(key in a) {
+				if(!b || a[key] !== b[key]) return false;
+				idx++;
+			}
+
+			for(key in b) idx--;
+
+			return idx === 0;
+		}(content.locals, newContent.locals));
+
+		if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
+
+		update(newContent);
+	});
+
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+
+/***/ "./src/styles/sofa.svg":
+/*!*****************************!*\
+  !*** ./src/styles/sofa.svg ***!
+  \*****************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/sofa.0adb2d82.svg";
+
+/***/ }),
+
+/***/ "./src/styles/switch.css":
+/*!*******************************!*\
+  !*** ./src/styles/switch.css ***!
+  \*******************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../node_modules/css-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./switch.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/styles/switch.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(true) {
+	module.hot.accept(/*! !../../node_modules/css-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./switch.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/styles/switch.css", function() {
+		var newContent = __webpack_require__(/*! !../../node_modules/css-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./switch.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/styles/switch.css");
+
+		if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
+
+		var locals = (function(a, b) {
+			var key, idx = 0;
+
+			for(key in a) {
+				if(!b || a[key] !== b[key]) return false;
+				idx++;
+			}
+
+			for(key in b) idx--;
+
+			return idx === 0;
+		}(content.locals, newContent.locals));
+
+		if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
+
+		update(newContent);
+	});
+
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+
+/***/ "./src/styles/tv.svg":
+/*!***************************!*\
+  !*** ./src/styles/tv.svg ***!
+  \***************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/tv.496d4ed6.svg";
+
+/***/ }),
+
+/***/ "./src/styles/user-shadow.svg":
+/*!************************************!*\
+  !*** ./src/styles/user-shadow.svg ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/user-shadow.6871ca60.svg";
+
+/***/ }),
+
+/***/ "./src/styles/userCard.css":
+/*!*********************************!*\
+  !*** ./src/styles/userCard.css ***!
+  \*********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../node_modules/css-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./userCard.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/styles/userCard.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(true) {
+	module.hot.accept(/*! !../../node_modules/css-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./userCard.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/styles/userCard.css", function() {
+		var newContent = __webpack_require__(/*! !../../node_modules/css-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./userCard.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/styles/userCard.css");
+
+		if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
+
+		var locals = (function(a, b) {
+			var key, idx = 0;
+
+			for(key in a) {
+				if(!b || a[key] !== b[key]) return false;
+				idx++;
+			}
+
+			for(key in b) idx--;
+
+			return idx === 0;
+		}(content.locals, newContent.locals));
+
+		if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
+
+		update(newContent);
+	});
+
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+
+/***/ 0:
+/*!**********************************************************************************!*\
+  !*** multi ./node_modules/react-dev-utils/webpackHotDevClient.js ./src/index.js ***!
+  \**********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(/*! C:\Users\musta\Desktop\Projects\filmlist\node_modules\react-dev-utils\webpackHotDevClient.js */"./node_modules/react-dev-utils/webpackHotDevClient.js");
+module.exports = __webpack_require__(/*! C:\Users\musta\Desktop\Projects\filmlist\src\index.js */"./src/index.js");
+
+
+/***/ })
+
+},[[0,"runtime~main",1]]]);
+//# sourceMappingURL=main.chunk.js.map
