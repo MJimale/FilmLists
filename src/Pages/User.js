@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import UserCard from '../Components/UserCard';
+import Logo from './../Components/logo';
 //import a user context which we will pass on later on.
 import '../styles/userCard.css';
 
@@ -17,7 +18,7 @@ function AddingUserForm(props) {
 }
 
 function DisplayUserCard(props) {
-	var usersList = localStorage.getItem('users') === 'null' ? [] : JSON.parse(localStorage.getItem('users'));
+	var usersList = JSON.parse(localStorage.getItem('users')) === null ? [] : JSON.parse(localStorage.getItem('users'));
 	return (
 		<div>
 			<h1>Whose Lists?</h1>
@@ -44,7 +45,8 @@ function User() {
 	function handleSubmit(e) {
 		e.preventDefault();
 		alert('Thank you, ' + firstName + '. You have been added');
-		let oldUsersArray = JSON.parse(localStorage.getItem('users'));
+		let oldUsersArray =
+			JSON.parse(localStorage.getItem('users')) === null ? [] : JSON.parse(localStorage.getItem('users'));
 		let newUsersArray = [ ...oldUsersArray ];
 		let obj = { FirstName: firstName, ID: newUsersArray.length + 1 };
 		//console.log(obj);
@@ -59,6 +61,7 @@ function User() {
 
 	return (
 		<div className="user">
+			<Logo />
 			{addingUser ? (
 				<AddingUserForm handleSubmit={handleSubmit} setFirstName={setFirstName} />
 			) : (
