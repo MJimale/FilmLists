@@ -1,7 +1,12 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import { UserContext, UserStatusContext } from '../Store/Store';
 import '../styles/userCard.css';
 
 function userCard(props) {
+	const [ user, setUser ] = useContext(UserContext);
+	const [ userStatus, setUserStatus ] = useContext(UserStatusContext);
+	console.log(props.user);
+	console.log(typeof props.user);
 	return (
 		<div className="userCardContainer">
 			{props.Adding === 'true' ? (
@@ -14,7 +19,16 @@ function userCard(props) {
 					+
 				</div>
 			) : (
-				<div className="userCardStyle">
+				<div
+					className="userCardStyle"
+					onClick={() => {
+						setUser(props.user);
+						setUserStatus(true);
+						console.log('Clicked.');
+						console.log('User:', user);
+						console.log('User Status:', userStatus);
+					}}
+				>
 					<img src={require(`../styles/user-shadow.svg`)} alt="user" />
 				</div>
 			)}

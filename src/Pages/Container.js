@@ -147,7 +147,8 @@ function Container(props) {
 export default Container;
 
 /*
-1-Local storage storing local users and profile apge
+1-Local storage storing local users and profile page
+Reading from Context API (user) to render rest of app 
 2-MongoDB
 3-Dockers
  */

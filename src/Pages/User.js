@@ -2,6 +2,13 @@ import React, { useState, useEffect } from 'react';
 import UserCard from '../Components/UserCard';
 import Logo from './../Components/logo';
 //import a user context which we will pass on later on.
+/* 
+create a golbal context that sets user to whatever their name is
+and then conditional render display the rest of the app.
+endsession so user has to reselect on each load
+logout button and then redisplay users
+
+*/
 import '../styles/userCard.css';
 
 function AddingUserForm(props) {
