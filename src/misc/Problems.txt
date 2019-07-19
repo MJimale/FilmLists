@@ -16,6 +16,14 @@ Input form:
 2.List of genres(Maybe just allow text but make sure it start with capital letters and autosuggest)
 3.animation not working
 
-context api the arrays
-local storage the arrays
+context api the arrays (Done)
+local storage the arrays    (Done)
+
+next steps:
+1-Fix Input
+    -List of genres
+    -Number Rating System(1.00 to 10.00)
+    -One Hook onChange
+2-Random Generator without repeats
+3-Firebase auth and database    
 

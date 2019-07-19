@@ -120,16 +120,6 @@ function Container(props) {
 			}
 		}
 	}
-	var suggestion = (
-		<div>
-			<p onClick={toggleSuggestionDisplay} className="adding">
-				+ Need a Suggestion
-			</p>
-			<div style={{ display: displaySuggestion }}>
-				<Random films={table} close={toggleSuggestionDisplay} />
-			</div>
-		</div>
-	);
 
 	return (
 		<animated.div style={slide} className="filmscontainer">
@@ -157,7 +147,12 @@ function Container(props) {
 				<Table films={table} handleDeleteRow={handleDeleteRow} />
 			) : (
 				<div>
-					{suggestion}
+					<p onClick={toggleSuggestionDisplay} className="adding">
+						+ Need a Suggestion
+					</p>
+					<div style={{ display: displaySuggestion }}>
+						<Random films={table} close={toggleSuggestionDisplay} />
+					</div>
 					<WishlistTable films={table} handleDeleteRow={handleDeleteRow} />
 				</div>
 			)}
