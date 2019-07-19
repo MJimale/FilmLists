@@ -28,6 +28,16 @@
 		border-width: 2px;
 	}
 }
+@media only screen and (max-width: 400px) {
+	.suggestion-card {
+		right: 20%;
+	}
+}
+@media only screen and (min-width: 800px) {
+	.suggestion-card {
+		right: 50%;
+	}
+}
 
 .suggestion-card:hover {
 	box-shadow: -1px 15px 30px -12px black;
