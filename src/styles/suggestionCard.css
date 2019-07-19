@@ -1,0 +1,38 @@
+.suggestion-card {
+	border-radius: 5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: #f4d3df;
+	font-family: halyard-display, sans-serif;
+	text-align: center;
+	display: inline-block;
+	position: relative;
+	width: 190px;
+	height: 190px;
+	margin-left: auto;
+	margin-top: 4%;
+	margin-right: 2%;
+	font-size: 13px;
+	color: black;
+	background-color: whitesmoke;
+	font-weight: bold;
+	position: absolute;
+	top: 20%;
+	right: 30%;
+	bottom: 0;
+	left: 50%;
+	z-index: 2, 000, 000;
+}
+@media only screen and (max-width: 600px) {
+	.suggestion-card {
+		border-width: 2px;
+	}
+}
+
+.suggestion-card:hover {
+	box-shadow: -1px 15px 30px -12px black;
+}
+
+.suggestion-card button {
+	margin-top: 9%;
+}

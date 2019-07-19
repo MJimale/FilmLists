@@ -5,6 +5,7 @@ import { PageContext } from '../Store/Store';
 import Switch from '../Components/switch';
 import Input from '../Components/input';
 import Table from '../Components/table';
+import Random from '../Components/random';
 import WishlistTable from '../Components/wishlistTable';
 import { filmsHaveWatchedDB } from '../Arrays/filmsArray.js';
 import { filmsWishlistDB } from '../Arrays/filmsArray.js';
@@ -36,7 +37,7 @@ function Container(props) {
 		console.log(obj);
 		newTable.push(obj);
 		setName('');
-		setDisplay('none');
+		setDisplayInput('none');
 	}
 	//This function allows rows to be deleted
 	function handleDeleteRow(i) {
@@ -44,13 +45,19 @@ function Container(props) {
 		rows.splice(i, 1);
 		setTable(rows);
 	}
+
 	//Animations:
 	//React Spring,using React Hooks, allows animation.
 	const slide = useSpring({ marginLeft: 0, from: { marginLeft: 200 }, config: { friction: 60 } });
-	//Animating Input Display
-	const [ display, setDisplay ] = useState('none');
-	function toggleDisplay() {
-		setDisplay(display === 'none' ? '' : 'none');
+	//Toggling Input display
+	const [ displayInput, setDisplayInput ] = useState('none');
+	function toggleDisplayInput() {
+		setDisplayInput(displayInput === 'none' ? '' : 'none');
+	}
+	//Toggling Suggestion Box display
+	const [ displaySuggestion, setDisplaySuggestion ] = useState('none');
+	function toggleSuggestionDisplay() {
+		setDisplaySuggestion(displaySuggestion === 'none' ? '' : 'none');
 	}
 	//Animating Slider and Highlighting the Selected Option
 	const [ selected, setSelected ] = useState('topbarSelected');
@@ -85,7 +92,7 @@ function Container(props) {
 		},
 		[ haveWatched ]
 	);
-	// a function to display the correcct table based on the page and toggle option
+	// a function to displayInput the correcct table based on the page and toggle option
 	function selectingTable() {
 		if (page === 'Film') {
 			if (haveWatched) {
@@ -113,6 +120,16 @@ function Container(props) {
 			}
 		}
 	}
+	var suggestion = (
+		<div>
+			<p onClick={toggleSuggestionDisplay} className="adding">
+				+ Need a Suggestion
+			</p>
+			<div style={{ display: displaySuggestion }}>
+				<Random films={table} close={toggleSuggestionDisplay} />
+			</div>
+		</div>
+	);
 
 	return (
 		<animated.div style={slide} className="filmscontainer">
@@ -123,10 +140,10 @@ function Container(props) {
 				</p>
 			</Link>
 			<Switch selected={selected} selected1={selected1} toggleSelect={toggleSelect} />
-			<p onClick={toggleDisplay} className="adding">
+			<p onClick={toggleDisplayInput} className="adding">
 				+ Add {page}
 			</p>
-			<div style={{ display: display }}>
+			<div style={{ display: displayInput }}>
 				<Input
 					wishList={willWatch}
 					handleSubmit={handleSubmit}
@@ -135,10 +152,14 @@ function Container(props) {
 					setComment={setComment}
 				/>
 			</div>
+
 			{willWatch === false ? (
 				<Table films={table} handleDeleteRow={handleDeleteRow} />
 			) : (
-				<WishlistTable films={table} handleDeleteRow={handleDeleteRow} />
+				<div>
+					{suggestion}
+					<WishlistTable films={table} handleDeleteRow={handleDeleteRow} />
+				</div>
 			)}
 		</animated.div>
 	);
@@ -147,8 +168,6 @@ function Container(props) {
 export default Container;
 
 /*
-1-Local storage storing local users and profile page
-Reading from Context API (user) to render rest of app 
-2-MongoDB
-3-Dockers
+1-MongoDB
+2-Dockers
  */
