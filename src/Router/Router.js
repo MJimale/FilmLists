@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useContext } from 'react';
-import { UserContext } from '../Store/Store';
+import { UserStatusContext } from '../Store/Store';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import { ProtectedRoute } from '../Router/ProtectedRoute';
 import Container from '../Pages/Container';
@@ -7,6 +7,7 @@ import Loading from './../Pages/Loading';
 import MainMenu from '../Pages/MainMenu.js';
 import User from '../Pages/User';
 import Error from './Error.js';
+import app from '../base';
 
 function Display() {
 	return (
@@ -24,17 +25,13 @@ function Display() {
 
 function LoadingSetup() {
 	const [ isLoading, setLoading ] = useState(true);
-	const [ userStatus ] = useContext(UserContext);
+	const [ userStatus, setUserStatus ] = useContext(UserStatusContext);
 	const userSelected = userStatus ? <Display /> : <User />;
 
 	const element = isLoading ? <Loading /> : userSelected;
-	useEffect(
-		() => {
-			console.log('User state in Router:', typeof userStatus);
-			console.log('User state in Router:', userStatus);
-		},
-		[ userStatus ]
-	);
+	useEffect(() => {
+		app.auth().onAuthStateChanged(setUserStatus);
+	}, []);
 	setTimeout(() => {
 		setLoading(false);
 	}, 2500);

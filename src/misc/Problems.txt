@@ -25,5 +25,5 @@ next steps:
     -Number Rating System(1.00 to 10.00)
     -One Hook onChange
 2-Random Generator without repeats (Done)
-3-Firebase auth and database    
-
+3-Firebase auth and database (Done Auth)   
+4-"ADD A FILM" when film is not available

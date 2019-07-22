@@ -5,8 +5,6 @@ import '../styles/userCard.css';
 function userCard(props) {
 	const [ user, setUser ] = useContext(UserContext);
 	const [ userStatus, setUserStatus ] = useContext(UserStatusContext);
-	console.log(props.user);
-	console.log(typeof props.user);
 	return (
 		<div className="userCardContainer">
 			{props.Adding === 'true' ? (

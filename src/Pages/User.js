@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react';
-import UserCard from '../Components/UserCard';
+import React, { useState, useCallback } from 'react';
 import Logo from './../Components/logo';
+import app from '../base';
 //import a user context which we will pass on later on.
 /* 
 create a golbal context that sets user to whatever their name is
@@ -16,63 +16,91 @@ function AddingUserForm(props) {
 		<div>
 			<h1>Add Profile</h1>
 			<form onSubmit={props.handleSubmit}>
-				<label>Your Name: </label>
-				<input onChange={(e) => props.setFirstName(e.target.value)} name="name" autoComplete="off" required />
+				<label>
+					Your Name:
+					<input name="name" autoComplete="off" required />
+				</label>
+				<label>
+					Email:
+					<input name="email" type="email" autoComplete="off" required />
+				</label>
+				<label>
+					Password:
+					<input name="password" type="password" autoComplete="off" required />
+				</label>
 				<button type="submit">Submit</button>
 			</form>
+			<button
+				onClick={() => {
+					props.setAddingUser(false);
+				}}
+			>
+				Have an Account? Login
+			</button>
 		</div>
 	);
 }
 
 function DisplayUserCard(props) {
-	var usersList = JSON.parse(localStorage.getItem('users')) === null ? [] : JSON.parse(localStorage.getItem('users'));
 	return (
 		<div>
 			<h1>Whose Lists?</h1>
-			{usersList.map((user, i) => {
-				return <UserCard key={i} user={usersList[i].FirstName} />;
-			})}
-
-			<UserCard Adding="true" user="Add User" setAddingUser={props.setAddingUser} />
+			<form onSubmit={props.handleLogin}>
+				<label>
+					Email:
+					<input name="email" type="email" autoComplete="off" required />
+				</label>
+				<label>
+					Password:
+					<input name="password" type="password" autoComplete="off" required />
+				</label>
+				<button type="submit">Submit</button>
+			</form>
+			<button
+				onClick={() => {
+					props.setAddingUser(true);
+				}}
+			>
+				Sign up
+			</button>
 		</div>
 	);
 }
 
 function User() {
 	const [ addingUser, setAddingUser ] = useState(false);
-	const [ firstName, setFirstName ] = useState('');
-	var usersList = JSON.parse(localStorage.getItem('users'));
-	useEffect(
-		() => {
-			localStorage.setItem('users', JSON.stringify(usersList));
-		},
-		[ usersList ]
-	);
+	const handleSubmit = useCallback(async (event) => {
+		event.preventDefault();
+		const { name, email, password } = event.target.elements;
+		alert('Thank you, ' + name.value + '. You have been added');
+		try {
+			await app.auth().createUserWithEmailAndPassword(email.value, password.value);
+			app.auth().currentUser.updateProfile({ displayName: name.value });
+			app.auth().signOut();
+			setAddingUser(false);
+		} catch (error) {
+			alert(error);
+		}
+	});
 
-	function handleSubmit(e) {
-		e.preventDefault();
-		alert('Thank you, ' + firstName + '. You have been added');
-		let oldUsersArray =
-			JSON.parse(localStorage.getItem('users')) === null ? [] : JSON.parse(localStorage.getItem('users'));
-		let newUsersArray = [ ...oldUsersArray ];
-		let obj = { FirstName: firstName, ID: newUsersArray.length + 1 };
-		//console.log(obj);
-		newUsersArray.push(obj);
-		localStorage.clear();
-		localStorage.setItem('users', JSON.stringify(newUsersArray));
-		//console.log(newUsersArray);
-		//console.log(localStorage);
-		setFirstName('');
-		setAddingUser(false);
-	}
+	const handleLogin = useCallback(async (event) => {
+		event.preventDefault();
+		const { email, password } = event.target.elements;
+		try {
+			await app.auth().signInWithEmailAndPassword(email.value, password.value);
+			console.log(app.auth().currentUser);
+		} catch (error) {
+			alert(error);
+		}
+	});
 
 	return (
 		<div className="user">
 			<Logo />
 			{addingUser ? (
-				<AddingUserForm handleSubmit={handleSubmit} setFirstName={setFirstName} />
+				<AddingUserForm handleSubmit={handleSubmit} setAddingUser={setAddingUser} />
 			) : (
-				<DisplayUserCard setAddingUser={setAddingUser} />
+				<DisplayUserCard handleLogin={handleLogin} setAddingUser={setAddingUser} />
 			)}
 		</div>
 	);
