@@ -29,9 +29,7 @@ function LoadingSetup() {
 	const userSelected = userStatus ? <Display /> : <User />;
 
 	const element = isLoading ? <Loading /> : userSelected;
-	useEffect(() => {
-		app.auth().onAuthStateChanged(setUserStatus);
-	}, []);
+	app.auth().onAuthStateChanged(setUserStatus);
 	setTimeout(() => {
 		setLoading(false);
 	}, 2500);

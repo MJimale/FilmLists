@@ -75,9 +75,9 @@ function User() {
 		alert('Thank you, ' + name.value + '. You have been added');
 		try {
 			await app.auth().createUserWithEmailAndPassword(email.value, password.value);
-			app.auth().currentUser.updateProfile({ displayName: name.value });
 			app.auth().signOut();
 			setAddingUser(false);
+			return app.auth().currentUser.updateProfile({ displayName: name.value });
 		} catch (error) {
 			alert(error);
 		}
