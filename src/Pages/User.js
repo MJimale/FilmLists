@@ -75,6 +75,16 @@ function User() {
 		alert('Thank you, ' + name.value + '. You have been added');
 		try {
 			await app.auth().createUserWithEmailAndPassword(email.value, password.value);
+			const db = app.firestore();
+			db.settings({
+				timestampsInSnapshots: true
+			});
+
+			db.collection('users').add({
+				name: name.value,
+				email: email.value,
+				uid: app.auth().currentUser.uid
+			});
 			app.auth().signOut();
 			setAddingUser(false);
 			return app.auth().currentUser.updateProfile({ displayName: name.value });

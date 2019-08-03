@@ -20,32 +20,6 @@ var newTable = tvHaveWatchedDB;
 function Container(props) {
 	//Context Api
 	const [ page ] = useContext(PageContext);
-	//Table setup
-	const [ table, setTable ] = useState(newTable);
-	//Form Setup:
-	//The setup for handling data from the input form in the <Input /> component
-	//Using React Hooks ,we append the information submitted to the local state
-	const [ name, setName ] = useState('');
-	const [ rating, setRating ] = useState('');
-	const [ comment, setComment ] = useState('');
-
-	//This function handles submit button. We use the information gathered in the local state
-	function handleSubmit(e) {
-		e.preventDefault();
-		alert('* ' + name + ' * has been added');
-		let obj = { Name: name, Rating: rating, Genre: 'Normal', Comment: comment };
-		console.log(obj);
-		newTable.push(obj);
-		setName('');
-		setDisplayInput('none');
-	}
-	//This function allows rows to be deleted
-	function handleDeleteRow(i) {
-		let rows = [ ...table ];
-		rows.splice(i, 1);
-		setTable(rows);
-	}
-
 	//Animations:
 	//React Spring,using React Hooks, allows animation.
 	const slide = useSpring({ marginLeft: 0, from: { marginLeft: 200 }, config: { friction: 60 } });
@@ -78,6 +52,15 @@ function Container(props) {
 			setSelected1('topbarSelected');
 		}
 	}
+	//Table setup
+	const [ table, setTable ] = useState(newTable);
+	//This function allows rows to be deleted
+	function handleDeleteRow(i) {
+		let rows = [ ...table ];
+		rows.splice(i, 1);
+		setTable(rows);
+	}
+
 	//Retrieving Data:
 	//useEffect to determine table on mount
 	useEffect(() => {
@@ -134,13 +117,7 @@ function Container(props) {
 				+ Add {page}
 			</p>
 			<div style={{ display: displayInput }}>
-				<Input
-					wishList={willWatch}
-					handleSubmit={handleSubmit}
-					setName={setName}
-					setRating={setRating}
-					setComment={setComment}
-				/>
+				<Input page={page} wishList={willWatch} setDisplayInput={setDisplayInput} />
 			</div>
 
 			{willWatch === false ? (
@@ -153,7 +130,7 @@ function Container(props) {
 					<div style={{ display: displaySuggestion }}>
 						<Random films={table} close={toggleSuggestionDisplay} />
 					</div>
-					<WishlistTable films={table} handleDeleteRow={handleDeleteRow} />
+					<WishlistTable handleDeleteRow={handleDeleteRow} />
 				</div>
 			)}
 		</animated.div>

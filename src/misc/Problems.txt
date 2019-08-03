@@ -21,9 +21,12 @@ local storage the arrays    (Done)
 
 next steps:
 1-Fix Input
-    -List of genres
+    -List of genres (ABANDONED)
     -Number Rating System(1.00 to 10.00)
-    -One Hook onChange
+    -One Hook  (DONE)
 2-Random Generator without repeats (Done)
-3-Firebase auth and database (Done Auth)   
+3-Firebase auth and database (Done)   
 4-"ADD A FILM" when film is not available
+
+
+add to env 
