@@ -26,7 +26,7 @@ next steps:
     -One Hook  (DONE)
 2-Random Generator without repeats (Done)
 3-Firebase auth and database (Done)   
-4-"ADD A FILM" when film is not available
-
-
+4-"ADD A FILM" when film is not available(Done)
+5-Delete Button (Done)
+6-Good looking login page
 add to env 

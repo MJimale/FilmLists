@@ -7,16 +7,9 @@ import Input from '../Components/input';
 import Table from '../Components/table';
 import Random from '../Components/random';
 import WishlistTable from '../Components/wishlistTable';
-import { filmsHaveWatchedDB } from '../Arrays/filmsArray.js';
-import { filmsWishlistDB } from '../Arrays/filmsArray.js';
-import { tvHaveWatchedDB } from '../Arrays/tvArray.js';
-import { tvWishlistDB } from '../Arrays/tvArray.js';
-import { animeHaveWatchedDB } from '../Arrays/animeArray.js';
-import { animeWishlistDB } from '../Arrays/animeArray.js';
 
 import './../styles/container.css';
 
-var newTable = tvHaveWatchedDB;
 function Container(props) {
 	//Context Api
 	const [ page ] = useContext(PageContext);
@@ -53,56 +46,11 @@ function Container(props) {
 		}
 	}
 	//Table setup
-	const [ table, setTable ] = useState(newTable);
-	//This function allows rows to be deleted
-	function handleDeleteRow(i) {
-		let rows = [ ...table ];
-		rows.splice(i, 1);
-		setTable(rows);
-	}
-
-	//Retrieving Data:
-	//useEffect to determine table on mount
+	//useEffect to determine table component to mount
 	useEffect(() => {
 		setHaveWatched(true);
 		setWillWatch(false);
 	}, []);
-	useEffect(
-		() => {
-			console.log('Have watched:', haveWatched);
-			console.log('Will watch:', willWatch);
-			selectingTable();
-		},
-		[ haveWatched ]
-	);
-	// a function to displayInput the correcct table based on the page and toggle option
-	function selectingTable() {
-		if (page === 'Film') {
-			if (haveWatched) {
-				newTable = filmsHaveWatchedDB;
-				setTable(newTable);
-			} else if (!haveWatched) {
-				newTable = filmsWishlistDB;
-				setTable(newTable);
-			}
-		} else if (page === 'TV') {
-			if (haveWatched === true && willWatch === false) {
-				newTable = tvHaveWatchedDB;
-				setTable(newTable);
-			} else if (haveWatched === false && willWatch === true) {
-				newTable = tvWishlistDB;
-				setTable(newTable);
-			}
-		} else if (page === 'Anime') {
-			if (haveWatched === true && willWatch === false) {
-				newTable = animeHaveWatchedDB;
-				setTable(newTable);
-			} else if (haveWatched === false && willWatch === true) {
-				newTable = animeWishlistDB;
-				setTable(newTable);
-			}
-		}
-	}
 
 	return (
 		<animated.div style={slide} className="filmscontainer">
@@ -121,16 +69,16 @@ function Container(props) {
 			</div>
 
 			{willWatch === false ? (
-				<Table films={table} handleDeleteRow={handleDeleteRow} />
+				<Table />
 			) : (
 				<div>
 					<p onClick={toggleSuggestionDisplay} className="adding">
 						+ Need a Suggestion
 					</p>
 					<div style={{ display: displaySuggestion }}>
-						<Random films={table} close={toggleSuggestionDisplay} />
+						<Random close={toggleSuggestionDisplay} />
 					</div>
-					<WishlistTable handleDeleteRow={handleDeleteRow} />
+					<WishlistTable />
 				</div>
 			)}
 		</animated.div>
