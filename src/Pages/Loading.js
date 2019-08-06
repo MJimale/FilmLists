@@ -15,7 +15,7 @@ function Loading() {
 	return (
 		<div className="outer">
 			<div className="middle">
-				<div className="test">
+				<div className="logo-container">
 					<animated.img className="image" style={fade} src={logo} />
 					<animated.p style={slide}>
 						movie<b className="logo">RATINGS</b>

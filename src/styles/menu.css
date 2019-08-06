@@ -1,22 +1,15 @@
-/*Test page css*/
-.image {
-	animation: App-logo-spin .5s linear;
-	height: 55px;
-	width: 60px;
-}
-@keyframes App-logo-spin {
-	from {
-		transform: rotate(200deg);
-	}
-	to {
-		transform: rotate(360deg);
-	}
-}
-.test p {
+/*Menu*/
+.App {
 	font-family: halyard-display, sans-serif;
-	display: inline;
-	font-size: 40px;
+	font-weight: 400;
+	font-style: normal;
+	padding: 0px 24px;
+	text-align: center;
+	margin-top: 5%;
 }
+
+/*Logo css*/
+
 /*Centering div http://emergentweb.com/test/valign.html */
 .outer {
 	display: table;
@@ -31,36 +24,18 @@
 	display: table-cell;
 	vertical-align: middle;
 }
-.test {
+.logo-container {
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
 	width: 350px;
 }
-.App {
+.logo-container p {
 	font-family: halyard-display, sans-serif;
-	font-weight: 400;
-	font-style: normal;
-	padding: 0px 24px;
-	text-align: center;
-	margin-top: 5%;
-}
-.App2 {
-	font-family: halyard-display, sans-serif;
-	font-weight: 400;
-	font-style: normal;
-	padding: 0px 24px;
+	display: inline;
+	font-size: 40px;
 }
 
-/*Home*/
-.homecontainer {
-	text-align: center;
-	user-select: none; /*Stops highlighting/selecting by user*/
-}
-
-.homecontainer h1 {
-	cursor: pointer;
-}
 .preLogo {
 	font-family: halyard-display, sans-serif;
 	display: inline;
@@ -68,4 +43,18 @@
 }
 .logo {
 	color: yellow;
+}
+
+.image {
+	animation: App-logo-spin .5s linear;
+	height: 55px;
+	width: 60px;
+}
+@keyframes App-logo-spin {
+	from {
+		transform: rotate(200deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
 }

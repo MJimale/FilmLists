@@ -23,7 +23,7 @@ function MainMenu(props) {
 				>
 					Logout
 				</button>
-				<h3>Hello {account}</h3>
+				<h2>Hello {account}</h2>
 				<Link onClick={() => setPage('Film')} to="/films">
 					<MenuCard name="Film" alt="mainMenu_film_option" />
 				</Link>
