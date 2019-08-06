@@ -17,7 +17,7 @@ Input form:
 3.animation not working
 
 context api the arrays (Done)
-local storage the arrays    (Done)
+local storage the arrays (Done)
 
 next steps:
 1-Fix Input
@@ -28,5 +28,7 @@ next steps:
 3-Firebase auth and database (Done)   
 4-"ADD A FILM" when film is not available(Done)
 5-Delete Button (Done)
-6-Good looking login page
-add to env 
+6-Good looking login page (Done)
+7- Firbase security rules
+8-Host it
+9-Clean up code

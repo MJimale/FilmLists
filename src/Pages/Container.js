@@ -86,8 +86,3 @@ function Container(props) {
 }
 
 export default Container;
-
-/*
-1-MongoDB
-2-Dockers
- */

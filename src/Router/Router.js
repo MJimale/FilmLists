@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useContext } from 'react';
+import React, { useState, useContext } from 'react';
 import { UserStatusContext } from '../Store/Store';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import { ProtectedRoute } from '../Router/ProtectedRoute';

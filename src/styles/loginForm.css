@@ -1,0 +1,110 @@
+.loginpage-wrap {
+	text-align: center;
+	margin-top: 90px;
+	font-family: sofia-pro, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+.login-wrap {
+	margin: 30px auto 40px;
+	flex: 1 1 auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	min-width: 320px;
+	max-width: 654px;
+}
+.login-form {
+	padding: 2em 16px;
+	background-color: #fff;
+	border-radius: 0.4em;
+	border: 1px solid #c6c6c6;
+	min-width: 300px;
+}
+.login-form .email .label,
+.login-form .password .label {
+	display: none;
+}
+.login-form .email input,
+.login-form .password input {
+	background: none;
+	margin: 0.3em 0;
+	box-sizing: border-box;
+	font-size: 16px;
+	border: 1px solid #c6c6c6;
+	border-radius: 0.4em;
+	padding: 0.6em 0;
+	width: 100%;
+	display: block;
+	text-align: center;
+	transition: border-color 0.5s ease;
+	-webkit-tap-highlight-color: transparent;
+}
+.login-form .email input:focus,
+.login-form .password input:focus {
+	outline: none;
+	border-color: #000;
+	transition: border-color 0.5s ease;
+}
+.login-form .email input:selection,
+.login-form .password input:selection {
+	background-color: #24b3aa;
+	color: #fff;
+}
+
+.actions {
+	width: 100%;
+	padding-top: 1.5em;
+	text-align: center;
+}
+
+.actions .login,
+.actions .reset {
+	margin: 0;
+	box-sizing: border-box;
+	width: 100%;
+	display: block;
+	color: #fff;
+	border-radius: 3px;
+	border: none;
+	background-color: #1b1b3b;
+	padding: 0.8em 1em;
+	font-size: 16px;
+	line-height: 1;
+	-webkit-tap-highlight-color: transparent;
+	cursor: pointer;
+}
+
+.actions .login:focus,
+.actions .reset:focus {
+	outline: none;
+	animation: u0bfa4372 0.5s ease infinite alternate;
+}
+.actions .login:hover,
+.actions .reset:hover {
+	background-color: #2b2b5e;
+}
+
+.actions .login:active,
+.actions .reset:active {
+	background-color: #3b3b81;
+}
+
+.actions .forgot-password {
+	display: block;
+	margin: 1em auto 0;
+	padding: 0.5em 1em;
+	border: none;
+	background: none;
+	color: #666;
+	cursor: pointer;
+}
+.actions .forgot-password:hover {
+	text-decoration: underline;
+	color: #000;
+}
+.actions .forgot-password:focus {
+	outline: none;
+	text-decoration: underline;
+}

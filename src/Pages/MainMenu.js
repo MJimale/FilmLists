@@ -18,6 +18,7 @@ function MainMenu(props) {
 				<button
 					onClick={() => {
 						app.auth().signOut();
+						console.log(page);
 					}}
 				>
 					Logout

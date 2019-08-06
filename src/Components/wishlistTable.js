@@ -61,7 +61,7 @@ const WishlistTable = (props) => {
 	const information = showData(sortBy);
 	return (
 		<div>
-			<label>Sort By</label>{' '}
+			<label>Sort By:</label>{' '}
 			<select value={sortBy} onChange={(e) => setSortby(e.currentTarget.value)}>
 				<option value="NAME_ASC">Name A to Z</option>
 				<option value="NAME_DESC">Name Z to A</option>
