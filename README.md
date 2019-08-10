@@ -1,6 +1,6 @@
 ![Image of project image](https://s3.amazonaws.com/poly-screenshots.angel.co/Project/8f/1016586/290e88cce630907000c22eed24ac7626-original.png)
+
 #### Movie Ratings
-__This will also be bold__
 Small project so users can make a list of movies,anime and TV shows you want to watch and a list storing their personal ratings for one you have watched.
 
 Built using:
